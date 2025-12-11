@@ -1,6 +1,6 @@
-import { W1Parser } from './index';
+import { W1PendingParser } from './index.js';
 
-const parser = new W1Parser();
+const parser = new W1PendingParser();
 
 // Mock data content based on File 1 Schema (Drilling Permit)
 // Delimiter is '}'

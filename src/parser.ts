@@ -10,7 +10,7 @@ import {
     PerpField,
     LatLongs,
     PerpWellbore
-} from './models';
+} from './models.js';
 
 import {
     DRILLING_PERMIT_COLUMNS,
@@ -24,9 +24,9 @@ import {
     PERP_FIELD_COLUMNS,
     LAT_LONGS_COLUMNS,
     PERP_WELLBORE_COLUMNS
-} from './constants';
+} from './constants.js';
 
-export class W1Parser {
+export class W1PendingParser {
 
     private parseFile<T>(content: string, columns: (keyof T)[]): T[] {
         const lines = content.split('\n');

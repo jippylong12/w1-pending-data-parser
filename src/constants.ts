@@ -11,7 +11,7 @@ import {
     PerpField,
     LatLongs,
     PerpWellbore
-} from './models';
+} from './models.js';
 
 // Helper type to ensure keys match the interface
 type KeysOf<T> = (keyof T)[];
