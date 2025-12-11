@@ -12,5 +12,9 @@
     },
     "include": [
         "src"
+    ],
+    "exclude": [
+        "src/tests/**/*",
+        "src/test_parser.ts"
     ]
 }
