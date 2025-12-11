@@ -27,6 +27,20 @@
     "type": "git",
     "url": "git@github.com:jippylong12/w1-pending-data-parser.git"
   },
+  "keywords": [
+    "texas",
+    "rrc",
+    "oil",
+    "gas",
+    "drilling",
+    "permit",
+    "parser",
+    "data"
+  ],
+  "homepage": "https://github.com/jippylong12/w1-pending-data-parser#readme",
+  "bugs": {
+    "url": "https://github.com/jippylong12/w1-pending-data-parser/issues"
+  },
   "devDependencies": {
     "@types/jest": "^30.0.0",
     "@types/node": "^25.0.0",

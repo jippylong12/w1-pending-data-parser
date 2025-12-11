@@ -23,7 +23,7 @@ npm install w1-pending-data-parser
 
 ```typescript
 // Example usage (Conceptual)
-import { W1Parser } from 'w1-pending-data-parser';
+import { W1PendingParser } from 'w1-pending-data-parser';
 
 // ... feed files/data to parser ...
 ```
