@@ -17,6 +17,8 @@
     "dist"
   ],
   "scripts": {
+    "dev": "tsx src/index.ts",
+    "start": "node dist/index.js",
     "build": "tsc",
     "prepublishOnly": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -27,6 +29,7 @@
   },
   "devDependencies": {
     "@types/node": "^25.0.0",
+    "tsx": "^4.21.0",
     "typescript": "^5.9.3"
   }
 }
