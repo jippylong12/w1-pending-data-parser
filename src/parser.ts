@@ -45,7 +45,11 @@ export class W1PendingParser {
             columns.forEach((col, index) => {
                 // If there are more columns than values, undefined will be assigned (or empty string)
                 // We trim the values to be clean
-                obj[col] = values[index] ? values[index].trim() : '';
+                let val = values[index] ? values[index].trim() : '';
+                if (val.startsWith('"') && val.endsWith('"')) {
+                    val = val.slice(1, -1);
+                }
+                obj[col] = val;
             });
 
             results.push(obj as T);

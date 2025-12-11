@@ -42,6 +42,11 @@ export interface DrillingPermit {
     DKT_SUFFIX_CODE: string;
     DKT_EXAMINER_CODE: string;
     REAPPLIED_STATUS_NO: string;
+    OVERRIDE_FA_OP_CONSULT_YN: string;
+    OVERRIDE_P5_DELINQUENT_YN: string;
+    CASES_NO: string;
+    CASES_EXCEP_APPROVAL_CODE: string;
+    APPROVED_BY: string;
     OPERATOR_NAME: string;
     OPERATOR_NUMBER: string;
     OPERATOR_PHONE: string;
