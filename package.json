@@ -1,6 +1,6 @@
 {
   "name": "w1-pending-data-parser",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Takes 11 files from the Texsa RRC Drilling Permit data dump and converts it to useable classes and JSON",
   "license": "ISC",
   "author": "Marcus Salinas",
