@@ -1,0 +1,12 @@
+{
+  "name": "w1-pending-data-parser",
+  "version": "0.1.0",
+  "description": "Takes 11 files from the Texsa RRC Drilling Permit data dump and converts it to useable classes and JSON",
+  "license": "ISC",
+  "author": "Marcus Salinas",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
